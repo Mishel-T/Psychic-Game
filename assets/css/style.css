@@ -1,4 +1,39 @@
-header,
+/*pseudo code background image opacity to make letters easier to read*/
+
+body {
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+    background-color: rgb(112, 111, 111);
+    color: rgb(231, 228, 228);
+}
+
+header {
+    font-family: 'Cinzel', serif;
+    font-size: 68px;
+    text-align:center;
+    font-weight:900;
+    text-shadow: 4px 4px 8px #535151;
+}
+
+h1, 
+h2, 
+h3 {
+    font-family: 'Amatic SC', cursive;
+    font-weight:900;
+    text-align:center;
+}
+
 h1 {
-    
+    font-size: 50px;
+}
+
+#wins {
+    padding-bottom:80px;
+    padding-top: 50px;
+}
+
+.main {
+    border: 1px solid #f3f0f0fb;
+    padding-top: 40px;
+    padding-bottom: 100px;
 }
