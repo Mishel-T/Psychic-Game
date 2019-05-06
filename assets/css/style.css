@@ -17,23 +17,27 @@ header {
 
 h1, 
 h2, 
-h3 {
+h3,
+p,
+#wins {
     font-family: 'Amatic SC', cursive;
     font-weight:900;
     text-align:center;
 }
 
-h1 {
+h1,
+#wins,
+p {
     font-size: 50px;
 }
 
 #wins {
-    padding-bottom:80px;
+    padding-bottom:60px;
     padding-top: 50px;
 }
 
 .main {
     border: 1px solid #f3f0f0fb;
     padding-top: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
