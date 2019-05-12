@@ -1,4 +1,5 @@
 /*pseudo code background image opacity to make letters easier to read*/
+/*when guesses remaining entered, content uncenters itself, background shifts.... need to fix*/
 
 body {
     background-image: url("../images/background.jpeg");
@@ -40,5 +41,10 @@ p {
 .main {
     border: 1px solid #f3f0f0fb;
     padding-top: 40px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
+}
+
+
+.container {
+    justify-content: center;
 }
